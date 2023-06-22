@@ -43,3 +43,16 @@ Project: Clicars
         output is produced in folder ./output_folder/DDMMYY/(Todays Date)
         output file in format clicras_status_HHMMSS.CSV
         
+
+
+
+How to Speedup/slowdown scraping process:
+
+in settings.py file
+
+# define delay in seconds e.g. here it is 1 sec
+DOWNLOAD_DELAY = 1
+
+# The download delay setting will honor only one of is:
+CONCURRENT_REQUESTS_PER_DOMAIN = 16
+CONCURRENT_REQUESTS_PER_IP = 16
