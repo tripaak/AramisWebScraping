@@ -7,7 +7,7 @@ class ClicarsSpider(scrapy.Spider):
     allowed_domains = ['clicars.com']
 
     def start_requests(self):
-        with open('Clicars.csv', 'r') as input:
+        with open('clicars.csv', 'r') as input:
             reader = csv.DictReader(input)
             for row in reader:
                 yield scrapy.Request(row['URL'], callback=self.parse,meta={'vin':row['vin'],'url':row['URL']})
