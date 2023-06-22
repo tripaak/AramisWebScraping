@@ -1,3 +1,21 @@
+Project structure: 
+
+AramisWebScraping
+        |
+      Spiders
+        |
+        |---clicars
+        |
+        |---Brumbrum (yet to devlop)
+        |
+        |
+      runner.py (to run the project)
+
+
+
+
+
+
 Project: Clicars 
 
     Prerequistes: 
