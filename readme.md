@@ -1,3 +1,5 @@
+@author : tripaak.akash@gmail.com
+
 Project structure: 
 
 AramisWebScraping
