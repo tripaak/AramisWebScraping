@@ -86,3 +86,8 @@ AUTOTHROTTLE_DEBUG = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+# if crawling is to repeat after certain period of time this parameter needs to adjusted 
+# default 20 miniutes 
+SCRAPING_INTERVAL = 1200
